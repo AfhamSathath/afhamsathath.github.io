@@ -2,7 +2,7 @@ import axios, { AxiosInstance } from "axios";
 
 // ✅ Create a reusable Axios instance
 const api: AxiosInstance = axios.create({
-  baseURL: "http://localhost:5000", // Backend URL
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000", // Backend URL from env or localhost for dev
   withCredentials: true, // Include cookies if backend uses them
   headers: {
     "Content-Type": "application/json",
