@@ -24,9 +24,9 @@ import CoursesFront from "./pages/CoursesFront";
 import JobsFront from "./pages/JobsFront";
 
 // ===== Dashboards =====
-import AdminDashboard from "./pages/AdminDashboard";
-import CompanyDashboard from "./pages/CompanyDashboard";
-import UserDashboard from "./pages/UserDashboard";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import CompanyDashboard from "./pages/company/CompanyDashboard";
+import UserDashboard from "./pages/user/UserDashboard";
 
 // ===== Admin Pages =====
 import AdminJobs from "./pages/admin/Jobs";
